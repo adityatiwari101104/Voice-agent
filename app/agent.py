@@ -39,6 +39,7 @@ Rules:
 3. Preserve the teacher's requested number of questions.
 4. Preserve the requested marks per question.
 5. Return data matching the provided PaperRequest schema.
+6. When a section is described only as "MCQs" without an explicit marks value, assume 1 mark per MCQ.
 """
 
 def create_paper_request(user_input: str) -> PaperRequest:

@@ -1,5 +1,25 @@
+# Core / LLM
 openai
 python-dotenv
 pydantic
+
+# Question-paper backend
+tavily-python
+requests
+pypdf
+reportlab
+
+# Voice stack -- LiveKit orchestration
 livekit-agents
-livekit-plugins-deepgram
+livekit-plugins-groq
+livekit-plugins-sarvam
+
+# Test frontend (token server + static page)
+livekit-api
+fastapi
+uvicorn
+
+# Voice stack -- standalone test scripts (test_tts.py, test_flux.py)
+sarvamai
+deepgram-sdk
+pyaudio
